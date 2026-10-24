@@ -230,3 +230,40 @@ h2 em { color: var(--teal); font-family: var(--serif); font-weight: 400; }
 .diabetes-stat { display:grid; gap:3px; color:#cbd9dc; }
 .diabetes-stat strong { color:var(--teal); font-family:var(--serif); font-size:1.5rem; font-weight:400; }
 .diabetes-stat span { font-size:.43rem; line-height:1.5; letter-spacing:.12em; }
+
+/* Artwork for the four additional featured projects. */
+.portfolio-art { background: linear-gradient(135deg,#18333a,#17242d 72%,#20343a); }
+.portfolio-window { position:absolute; inset:57px 11% 28px; border:1px solid rgba(120,214,197,.28); background:rgba(7,17,22,.55); }
+.portfolio-window-top { height:27px; display:flex; align-items:center; gap:5px; padding:0 9px; border-bottom:1px solid rgba(225,240,245,.1); color:#8fa3a7; font-size:.42rem; letter-spacing:.08em; }
+.portfolio-window-top i { width:5px; height:5px; border-radius:50%; background:var(--teal); opacity:.8; }
+.portfolio-window-top span { margin-left:6px; }
+.portfolio-window-body { position:relative; display:grid; gap:9px; padding:13px 14px; color:#aebfc1; font-size:.46rem; }
+.portfolio-window-body b { color:#e2eeeb; font-size:.72rem; letter-spacing:.08em; }
+.portfolio-window-body i { width:72%; height:3px; background:rgba(120,214,197,.25); }
+.portfolio-window-body i:nth-of-type(2) { width:52%; }.portfolio-window-body i:nth-of-type(3) { width:62%; }
+.capacity-art { background:linear-gradient(135deg,#203940,#172831 68%,#29333c); }
+.capacity-dashboard { position:absolute; inset:58px 11% 31px; padding:12px 14px; border:1px solid rgba(120,214,197,.25); background:rgba(7,17,22,.45); }
+.capacity-title { display:flex; justify-content:space-between; color:#d8e5e3; font-size:.51rem; letter-spacing:.1em; }
+.capacity-title span { color:#8fa6a8; font-size:.43rem; }
+.capacity-bars { height:78px; display:flex; align-items:end; gap:6px; padding:12px 9px 0; border-bottom:1px solid rgba(213,234,230,.2); }
+.capacity-bars i { flex:1; background:linear-gradient(0deg,rgba(120,214,197,.24),#78d6c5); opacity:.8; }
+.capacity-bars i:nth-child(1){height:40%}.capacity-bars i:nth-child(2){height:66%}.capacity-bars i:nth-child(3){height:54%}.capacity-bars i:nth-child(4){height:88%}.capacity-bars i:nth-child(5){height:59%}.capacity-bars i:nth-child(6){height:72%}.capacity-bars i:nth-child(7){height:47%}.capacity-bars i:nth-child(8){height:78%}
+.capacity-legend { display:flex; justify-content:space-between; gap:7px; padding-top:7px; color:#91a6a8; font-size:.35rem; letter-spacing:.05em; }
+.assistant-art { background:linear-gradient(135deg,#252d3b,#172731 72%,#163c3b); }
+.assistant-hud { position:absolute; inset:54px 11% 30px; display:flex; align-items:center; justify-content:space-between; gap:14px; padding:12px 15px; border:1px solid rgba(120,214,197,.28); background:rgba(7,17,22,.5); }
+.assistant-ring { width:92px; height:92px; flex:0 0 92px; display:grid; place-items:center; position:relative; border:1px solid rgba(120,214,197,.65); border-radius:50%; box-shadow:0 0 0 8px rgba(120,214,197,.07), inset 0 0 20px rgba(120,214,197,.12); color:var(--teal); font-size:.48rem; letter-spacing:.14em; }
+.assistant-ring i { position:absolute; inset:9px; border:1px dashed rgba(120,214,197,.35); border-radius:50%; }
+.assistant-command { display:grid; gap:9px; color:#a9bbbf; font-size:.43rem; letter-spacing:.08em; }
+.assistant-command span { color:#e0e9e8; font: .75rem var(--serif); letter-spacing:0; }
+.assistant-status { position:absolute; right:14px; top:13px; color:#9cb2b1; font-size:.39rem; letter-spacing:.1em; }
+.assistant-status i { display:inline-block; width:5px; height:5px; margin-right:4px; border-radius:50%; background:var(--teal); }
+.web371-art { background:linear-gradient(135deg,#333142,#242d39 68%,#193438); }
+.portal-window { position:absolute; inset:57px 11% 27px; border:1px solid rgba(210,218,232,.2); background:rgba(8,16,23,.53); }
+.portal-nav { height:27px; display:flex; align-items:center; justify-content:space-between; padding:0 10px; border-bottom:1px solid rgba(225,240,245,.12); color:#c4d0d2; font-size:.38rem; }
+.portal-nav b { color:var(--teal); font-size:.43rem; letter-spacing:.08em; }
+.portal-hero { min-height:86px; display:grid; align-content:center; gap:4px; padding:9px 14px; background:linear-gradient(100deg,rgba(120,214,197,.14),transparent); }
+.portal-hero small { color:#a2b4b6; font-size:.35rem; letter-spacing:.1em; }
+.portal-hero strong { color:#e7eceb; font: .88rem/1.1 var(--serif); }
+.portal-hero i { color:var(--teal); font-size:.42rem; font-style:normal; }
+.portal-cards { display:flex; gap:7px; padding:7px 10px; }
+.portal-cards i { height:25px; flex:1; border:1px solid rgba(225,240,245,.14); background:rgba(225,240,245,.04); }
