@@ -267,3 +267,5 @@ h2 em { color: var(--teal); font-family: var(--serif); font-weight: 400; }
 .portal-hero i { color:var(--teal); font-size:.42rem; font-style:normal; }
 .portal-cards { display:flex; gap:7px; padding:7px 10px; }
 .portal-cards i { height:25px; flex:1; border:1px solid rgba(225,240,245,.14); background:rgba(225,240,245,.04); }
+.project-links { display:flex; flex-wrap:wrap; gap:18px; align-items:center; }
+.project-link-live { padding-left:14px; border-left:1px solid var(--line); }
